@@ -1,0 +1,14 @@
+header {
+  background-color: var(--bg-primary);
+}
+
+.title-header {
+  color: var(--text-header-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-header p {
+  font-weight: 700;
+}

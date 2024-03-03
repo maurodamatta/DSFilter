@@ -1,0 +1,33 @@
+:root {
+  --text-header-primary: #FFFFFF;
+  --text-card-listing: #55BC04;
+  --text-card-listing-secondy: #6F6F6F;
+  --text-placeholder: #C2C2C2;
+
+  --bg-primary: #55BC04;
+  --bg-btn-card-filter: #55BC04;
+  --bg-border: #55BC04;
+  --bg-card-filter: #FFFFFF;
+  --bg-card-listing: #FFFFFF;
+  --bg-card-filter-border: #6F6F6F;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 40px;
+}

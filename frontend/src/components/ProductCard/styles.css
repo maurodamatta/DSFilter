@@ -1,0 +1,23 @@
+.container-card-prod {
+  background-color: var(--bg-card-filter);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card-product {
+  border: solid 1px var(--bg-border);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  font-size: 12px;
+  color: var(--text-card-listing-secondy);
+}
+
+.product-price {
+  color: var(--text-card-listing);
+  font-weight: 700;
+  font-size: 16px;
+}

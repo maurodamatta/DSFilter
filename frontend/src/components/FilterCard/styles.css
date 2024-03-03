@@ -1,0 +1,34 @@
+.container-card-form {
+  background-color: var(--bg-card-filter);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#inpt {
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  border: 1px solid var(--bg-card-filter-border);
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-card-listing-secondy);
+  margin-bottom: 20px;
+}
+
+#inpt::placeholder {
+  color: var(--text-placeholder);
+}
+
+.btn { 
+  background-color: var(--bg-btn-card-filter);
+  color: var(--text-header-primary);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
